@@ -8,24 +8,23 @@ body{
     color: orange;
 }
 /* section tag er kaj css*/
-section{
+.felexiable{
     display: flex;
+    margin-bottom: 100px;
 }
-/* div  tag selestion er mode ja koi ta ase*/
 .width-haf{
     width: 50%;
     padding-left: 5%;
 }
-/* p tag er kaj css*/
+
 .width-haf p{
     text-align: justify;
 }
-/* img tag er kaj css*/
 .width-haf img{
     width: 100%;
     height: 90%;
+    
 }
-/* anchor tag er kaj css*/
 .hrf{
     text-decoration: none;
    background-image: linear-gradient(orange, tomato);
@@ -34,9 +33,54 @@ section{
     padding: 5px 10px;
     font-weight: 700px;
 }
-/* sessition tag er (class name) er kaj css*/
 .top-session{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+/*First section end*/
+/* Seceand session */
+.dream-it{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*thard session */
+.expri{
+
+}
+.box-sado{
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    box-shadow: 10px
+    10px 10px 10px rgb(222, 231, 222);
+    border-radius: 5px;
+
+}
+.box-sado p{
+    text-align: justify;
+}
+.expri{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#ex{
+    background-image: linear-gradient(red,rgb(160, 221, 160));
+   border-image-slice: 1;
+    border-left: 7px solid;
+}
+#ex1{
+    background-image: linear-gradient(red,rgb(102, 224, 102));
+    border-image-slice: 1;
+     border-left: 7px solid;
+}
+/*End session */
+footer p{
+    text-align: center;
+}
+marquee{
+    color: rgb(230, 16, 44);
 }
